@@ -1,15 +1,12 @@
 #include <stdio.h>
 /**
- *  main - Entry mains
- * 
- * This programprints a string without thr printf
- * Return: 
- *
+ *main -Entry point
+ *Return:Always O (Success)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-        
-		return (0);
+
+	puts("\"Programming is like building a multilingual puzzle\n");
+	return (0);
 
 }
