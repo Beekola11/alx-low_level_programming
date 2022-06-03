@@ -1,16 +1,15 @@
 #include <stdio.h>
+#include <unistd.h>
 /*
- * main : input
- * this file print exact file using write
- *
- *return (1)
- *
+ *main - Prints out the last part of a quote in the standard error
+ *this file print exact file using write
+ *return 1 if success.
  */
-
-int main(void){
-     fwrite(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n",61);
-    
-     return (1);
+int main(void)
+{
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar,");
+	fprintf(stderr, " 2015-10-19\n");
+	return (1);
 
 }
 
