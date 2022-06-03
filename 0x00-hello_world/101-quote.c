@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-/*
+/**
  *main - Prints out the last part of a quote in the standard error
  *this file print exact file using write
- *return 1 if success.
+ *Return: 1  (success)
  */
 int main(void)
 {
