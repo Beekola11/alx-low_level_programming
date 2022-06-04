@@ -13,9 +13,11 @@ char lower_c;
 char upper_c;
 
 for (lower_c = 'a'; lower_c <= 'z'; lower_c++)
-for (upper_c = 'A'; upper_c <= 'Z'; upper_c++)
 {
 putchar(lower_c);
+}
+for (upper_c = 'A'; upper_c <= 'Z'; upper_c++)
+{
 putchar(upper_c);
 }
 putchar('\n');
