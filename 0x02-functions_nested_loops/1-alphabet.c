@@ -6,13 +6,13 @@
  *Return: 0 (success)
  */
 
-void print_alphabet(void); 
-char alph;
-for (alph = 'a'; alph <= 'z'; alph++)
+void print_alphabet(void)
 {
-_putchar(alph);
+	char letters;
 
-_putchar('\n');
+	for (letters = 'a'; letters <= 'z'; letters++)
+		_putchar(letters);
+	_putchar('\n');
 }
 
 
