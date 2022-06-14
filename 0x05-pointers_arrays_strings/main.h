@@ -9,7 +9,7 @@ int _putchar(char c);
 
 void swap_int(int *a, int *b);
 
-size_t _strlen(const char *str);
+int _strlen(char *s);
 
 void _puts(char *str);
 
