@@ -4,6 +4,7 @@
 /**
  * main - prints all arguments it receives
  *  @argc: argument count
+ *  @argv: argument vector
  *  Return: int
  */
 
